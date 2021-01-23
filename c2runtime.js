@@ -18954,6 +18954,9 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
 	cr.system_object.prototype.acts.AddVar,
 	cr.system_object.prototype.cnds.Every,
-	cr.system_object.prototype.acts.CreateObject
+	cr.system_object.prototype.acts.CreateObject,
+	cr.plugins_.Keyboard.prototype.cnds.OnKey,
+	cr.system_object.prototype.acts.RestartLayout,
+	cr.system_object.prototype.acts.SetVar
 ];};
 
